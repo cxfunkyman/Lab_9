@@ -1,0 +1,481 @@
+a {
+    text-decoration: none;
+}
+.navbar {
+    overflow: hidden;
+    text-align: right;
+    display: block;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }  
+  .navbar a {
+    text-align: right;
+    font-weight: bold;
+    padding: 15px 18px;;    
+    line-height:5px;
+    font-family: Verdana, Arial, sans-serif;
+    color:#40407A;
+    background-color: white;      
+    margin: 0;
+    margin-bottom: 10px; 
+  }  
+  .navbar a:hover {
+    color: green;
+  }
+  .navbar a:active {
+    color:red;
+  }
+  .navhead a{
+      color: white;
+      font-family: Verdana, Arial, sans-serif;
+  }
+.navhead a:hover {
+  color: green;
+}
+.navhead a:active {
+  color:red;
+}
+head {
+    background-color: #F5F5F5;
+    color: #40407A;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {      
+    background-image: url(beautifulsea.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 110%;
+    height: 300px;    
+}
+body { 
+    background-color: #F5F5F5;
+    color: #F5F5F5;
+    font-family: Verdana, Arial, sans-serif;
+    display: block;
+    }
+main { 
+    background-color: #40407A;
+    color: #40407A;
+    font-family: Verdana, Arial, sans-serif;
+    display: block;
+    }
+h1 {
+    padding-top: 110px;
+    padding-left: 4em;
+    color: #fafafc;    
+}
+h2 {
+    padding-left: 4em;
+    color: #fafafc;
+}
+footer {    
+    font-size: .80em;
+    font-style: italic; 
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 0.25em; 
+}
+.nav2 { 
+    text-decoration: underline;      
+}
+.nav2 a:hover {
+    color: green;
+  }
+  .nav2 a:active {
+    color:red;
+  }
+#container { 
+    background-color: #40407A;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    padding: 1%;
+    width: 80%;
+    min-width: 800px;
+    overflow: hidden; 
+}
+div.div1{
+    width:30%;
+    float:left;
+    margin: 1em;
+}
+div.div2{
+    width:30%;
+    float:left;  
+    margin: 1em;
+}
+div.div3{
+   width:30%;
+   float:left;
+   margin: 1em;
+}
+div.divleft{  
+    float: left;
+    width: 40%; 
+    height: 1%;
+    margin-top: 1%; 
+    margin-left: 1%;
+    margin-right: 5%;
+}
+div.divright{
+    float: left; 
+    width: 40%;
+    height: 1%;
+    margin-top: 1%; 
+    margin-left: 1%;
+    margin-right: 1%;
+   
+}
+table, th, td {  
+  border: 1px solid black;
+  border-collapse: collapse; 
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  margin-bottom: 8%;
+}
+tr:nth-of-type(even) { 
+  background-color:#D7E8E9; 
+}
+.margin1 {
+  width: 30%;
+}
+.margin2 {
+  width: 50%;
+}
+form { 
+  display: flex;
+  flex-flow: column nowrap; 
+}
+input, datalist, textarea { 
+  margin-bottom: 0.5em; 
+}
+audio {
+  width: 270px;
+  height: 40px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 50%;
+  text-align: left;  
+} 
+.divaudio{  
+  text-align: left;
+}
+  /* Extra small devices (phones, 499px and down) */
+ @media only screen and (max-width: 499px){
+  header { 
+      height: 120px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 27px;
+    padding-left: 0.5em;
+    font-size: 25px;  
+}
+h3 {
+  text-align: center;
+  font-size: 19px;  
+}
+#container { 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  width: 85%;
+  min-width: 250px; 
+}
+p{
+  text-align: center;
+}
+.navbar a {
+  padding: 0.01em 0.001em; 
+  margin-right: auto;
+  font-size: 14px;
+} 
+.navbar {
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  top: 0;
+  width: 100%;
+} 
+div.div1{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  text-align: center;
+  font-size: 15px;
+}
+div.div2{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;  
+  text-align: center;
+  font-size: 15px;
+}
+div.div3{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  text-align: center;
+  font-size: 15px;
+}
+div.divleft{  
+  width: 100%; 
+  height: 0.1%;
+  margin-top: 0.1%; 
+
+}
+div.divright{
+  width: 100%;
+  margin-bottom: 5%;
+  height: 0.1%;
+  margin-top: 0.1%; 
+
+}
+table, th, td {  
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  font-size: 97%;
+}
+.ul1 {
+  padding-left:15%;
+}
+audio {
+  width: 264px;
+  height: 30px;
+  padding-bottom: 1%;
+} 
+}
+/* Small devices (portrait tablets and large phones, 500px and up) */
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+   header { 
+          height: 175px;    
+      }
+   h1 {
+        padding-top: 50px;
+        padding-left: 1em;
+        font-size: 28px;    
+    }
+   h3 {
+      text-align: center;
+      font-size: 19px;  
+    }
+   #container { 
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5%;
+      width: 85%;
+      min-width: 400px;       
+    }
+    p{
+      text-align: center;
+    }
+   .navbar {
+      text-align: center;
+    } 
+   div.div1{
+      margin-left: auto;
+      margin-right: auto;
+      width:100%;
+      text-align: center;
+      font-size: 16px;
+    }
+    div.div2{
+      margin-left: auto;
+      margin-right: auto;
+      width:100%;  
+      text-align: center;
+      font-size: 15px;
+    }
+    div.div3{
+      margin-left: auto;
+      margin-right: auto;
+      width:100%;
+      text-align: center;
+      font-size: 15px;
+    }
+   div.divleft{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 15px;
+      height: 130px; 
+      margin-top: 1px; 
+    }
+   div.divright{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; 
+      font-size: 15px;
+      height: 180px;
+      margin-top: 85px; 
+      margin-bottom: 80px; 
+    }
+   .ul1 {
+      padding-left: 30%;
+    }
+    form { 
+      width: 100%;
+      max-width: 40em;
+      display:grid;
+      grid-gap: 1em; gap: 1em;
+      grid-template-columns: 9em 1fr;
+      grid-template-rows: auto; 
+    }
+    audio {
+      width: 264px;
+      height: 35px;
+      padding-bottom: 1%;
+    } 
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header { 
+    height: 225px;    
+}
+h1 {
+  padding-top: 70px;
+  padding-left: 2em;   
+}
+#container { 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  width: 85%;
+  min-width: 650px;
+  text-align: center; 
+}
+div.div1{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  text-align: center;
+  font-size: 16px;
+}
+div.div2{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;  
+  text-align: center;
+  font-size: 16px;
+}
+div.div3{
+  margin-left: auto;
+  margin-right: auto;
+ width:100%;
+ text-align: center;
+ font-size: 16px;
+}
+div.divleft{
+  width: 45%;
+  margin-right: auto;
+  font-size: 15px;
+  padding-right: 8.8%;
+}
+div.divright{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 15px;
+  margin-bottom: 6px; 
+} 
+.ul1 {
+  padding-left:35%;
+}
+form { 
+  width: 60%;
+  max-width: 40em;
+  display:grid;
+  grid-gap: 1em; gap: 1em;
+  grid-template-columns: 9em 1fr;
+  grid-template-rows: auto; 
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1232px) {
+  header { 
+    height: 280px;    
+}
+#container { 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  width: 85%;
+  min-width: 650px; 
+}
+h1 {
+  padding-top: 100px;
+  padding-left: 2em;   
+}
+div.div1{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  text-align: center;
+  font-size: 16px;
+}
+div.div2{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;  
+  text-align: center;
+  font-size: 16px;
+}
+div.div3{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  text-align: center;
+  font-size: 16px;
+}
+div.divleft{
+  width: 45%;
+  margin-right: auto;
+  font-size: 15px;
+  padding-right: 8.8%;
+}
+div.divright{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 15px;
+  margin-bottom: 6px; 
+} 
+form { 
+  width: 60%;
+  max-width: 40em;
+  display:grid;
+  grid-gap: 1em; gap: 1em;
+  grid-template-columns: 9em 1fr;
+  grid-template-rows: auto; 
+}
+}
+/* Extra large devices (large laptops and desktops, 1201px and up) */
+@media only screen and (min-width: 1233px) {
+  div.divleft{
+    width: 45%;
+    margin-right: auto;
+    font-size: 15px;
+    padding-right: 4%;
+    padding-left: 2%;
+    }
+  div.divright{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 15px;
+    margin-bottom: 6px; 
+  } 
+  form { 
+    width: 60%;
+    max-width: 40em;
+    display:grid;
+    grid-gap: 1em; gap: 1em;
+    grid-template-columns: 9em 1fr;
+    grid-template-rows: auto; 
+  }
+} 
+
